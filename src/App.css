@@ -1,32 +1,52 @@
 .App {
+  margin: 30px;
+}
+
+.PageHeader {
   text-align: center;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.Article {
+  border: 1px solid #ccc;
+  margin: 8px 5px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ArticleTitle {
+  background-color: #c8faff;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px 10px 0px 10px;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.ArticleUserInfo {
+  font-weight: bold;
+  margin: 0px 10px 10px 20px;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ArticleText {
+   margin: 20px;
+   padding: 10px;
 }
+
+.CommentsTitle {
+  background-color: #dffcff;
+  font-weight: bold;
+  margin: 2px 20px;
+  padding: 5px;
+}
+
+.Comment {
+  margin-left: 20px; 
+  padding: 2px 20px;
+}
+
+.CommentUserInfo {
+  font-weight: bold;
+}
+
